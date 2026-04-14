@@ -1,0 +1,324 @@
+[
+{
+  "model": "core.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "Machado de Assis",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 2,
+  "fields": {
+    "nome": "Clarice Lispector",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 3,
+  "fields": {
+    "nome": "Agatha Christie",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 4,
+  "fields": {
+    "nome": "Shakespeare",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 5,
+  "fields": {
+    "nome": "Jane Austen",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 6,
+  "fields": {
+    "nome": "Jorge Amado",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 7,
+  "fields": {
+    "nome": "Paulo Coelho",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 8,
+  "fields": {
+    "nome": "Monteiro Lobato",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 9,
+  "fields": {
+    "nome": "Carlos Drummond de Andrade",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 10,
+  "fields": {
+    "nome": "Graciliano Ramos",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 11,
+  "fields": {
+    "nome": "Guimarães Rosa",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 12,
+  "fields": {
+    "nome": "Stephen King",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 13,
+  "fields": {
+    "nome": "Cassandra Clare",
+    "email": null
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 14,
+  "fields": {
+    "nome": "Rick Riordan",
+    "email": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Fantasia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Romance"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "Comédia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "Suspense"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 5,
+  "fields": {
+    "descricao": "Terror"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 6,
+  "fields": {
+    "descricao": "Ficção Científica"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 7,
+  "fields": {
+    "descricao": "Ficção"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 8,
+  "fields": {
+    "descricao": "Aventura"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 9,
+  "fields": {
+    "descricao": "Biografia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 10,
+  "fields": {
+    "descricao": "Autobiografia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 11,
+  "fields": {
+    "descricao": "Autoajuda"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 12,
+  "fields": {
+    "descricao": "Poesia"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "Editora Intrínseca",
+    "site": "https://intrinseca.com.br/"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 2,
+  "fields": {
+    "nome": "Editora Rocco",
+    "site": "https://rocco.com.br/"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 3,
+  "fields": {
+    "nome": "Editora Arqueiro",
+    "site": "https://www.editoraarqueiro.com.br/"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 4,
+  "fields": {
+    "nome": "Darkside Books",
+    "site": "https://www.darksidebooks.com.br/?gad_source=1&gad_campaignid=12193315087&gbraid=0AAAAADdgVMWdjN-8IbA2NO92o3zih2EgJ&gclid=EAIaIQobChMI7Jvcl-ymkwMVe0xIAB1IdS5gEAAYASAAEgLVj_D_BwE"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 5,
+  "fields": {
+    "nome": "Editora Seguinte",
+    "site": "https://wwwh.editoraseguinte.com.br/"
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "Príncipe Mecânico (Vol. 2 As Peças Infernais)",
+    "isbn": null,
+    "quantidade": 0,
+    "preco": "69.90",
+    "categoria": 1,
+    "editora": null,
+    "capa": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 2,
+  "fields": {
+    "titulo": "Anjo Mecânico (Vol. 1 As Peças Infernais)",
+    "isbn": null,
+    "quantidade": 0,
+    "preco": "69.90",
+    "categoria": 1,
+    "editora": null,
+    "capa": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 3,
+  "fields": {
+    "titulo": "Princesa Mecânica (Vol.3 As Peças Infernais)",
+    "isbn": null,
+    "quantidade": 0,
+    "preco": "69.90",
+    "categoria": 1,
+    "editora": null,
+    "capa": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 4,
+  "fields": {
+    "titulo": "Os Sete Maridos de Evelyn Hugo",
+    "isbn": null,
+    "quantidade": 0,
+    "preco": "69.90",
+    "categoria": 2,
+    "editora": null,
+    "capa": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$7WWh9s6jMzry2Gbnx30H8d$wIZzPnIKrhbOpBi0Ny25dtOcRoOK+ileRqPtzv+CUQk=",
+    "last_login": "2026-03-17T18:47:46.528Z",
+    "is_superuser": true,
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gDw2xQZgwFkYpidganQBRU$8lNQVIM3rCWmyLCdPM0a3pcSHLmLYRZfhg1/snempV0=",
+    "last_login": null,
+    "is_superuser": true,
+    "email": "marcoandre@gmail.com",
+    "name": "Marco André Lopes Mendes",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
